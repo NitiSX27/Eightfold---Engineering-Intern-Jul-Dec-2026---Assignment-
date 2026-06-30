@@ -1,0 +1,838 @@
+[
+  {
+    "candidate_id": "cand_4e1ec8e37239",
+    "full_name": "Alex Rivera",
+    "emails": [
+      "alex.rivera@example.com"
+    ],
+    "phones": [
+      "+15125550177"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "Go",
+        "confidence": 0.55,
+        "sources": [
+          "resume:sample_inputs\\resume_alexrivera.txt"
+        ]
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.55,
+        "sources": [
+          "resume:sample_inputs\\resume_alexrivera.txt"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.55,
+        "sources": [
+          "resume:sample_inputs\\resume_alexrivera.txt"
+        ]
+      },
+      {
+        "name": "Docker",
+        "confidence": 0.55,
+        "sources": [
+          "resume:sample_inputs\\resume_alexrivera.txt"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Initrode",
+        "title": "Backend Engineer",
+        "start": "2020-02",
+        "end": "2023-06",
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.58,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "resume:sample_inputs\\resume_alexrivera.txt",
+        "method": "first_line_heuristic",
+        "confidence": 0.7
+      },
+      {
+        "field": "emails",
+        "source": "resume:sample_inputs\\resume_alexrivera.txt",
+        "method": "normalized_email",
+        "confidence": 0.7
+      },
+      {
+        "field": "phones",
+        "source": "resume:sample_inputs\\resume_alexrivera.txt",
+        "method": "normalized_e164",
+        "confidence": 0.7
+      },
+      {
+        "field": "skills[].Go",
+        "source": "resume:sample_inputs\\resume_alexrivera.txt",
+        "method": "regex_keyword_scan",
+        "confidence": 0.55
+      },
+      {
+        "field": "skills[].PostgreSQL",
+        "source": "resume:sample_inputs\\resume_alexrivera.txt",
+        "method": "regex_keyword_scan",
+        "confidence": 0.55
+      },
+      {
+        "field": "skills[].Kubernetes",
+        "source": "resume:sample_inputs\\resume_alexrivera.txt",
+        "method": "regex_keyword_scan",
+        "confidence": 0.55
+      },
+      {
+        "field": "skills[].Docker",
+        "source": "resume:sample_inputs\\resume_alexrivera.txt",
+        "method": "regex_keyword_scan",
+        "confidence": 0.55
+      },
+      {
+        "field": "experience[].company",
+        "source": "resume:sample_inputs\\resume_alexrivera.txt",
+        "method": "direct",
+        "confidence": 0.7
+      },
+      {
+        "field": "experience[].title",
+        "source": "resume:sample_inputs\\resume_alexrivera.txt",
+        "method": "direct",
+        "confidence": 0.7
+      },
+      {
+        "field": "experience[].start",
+        "source": "resume:sample_inputs\\resume_alexrivera.txt",
+        "method": "normalized_date",
+        "confidence": 0.7
+      },
+      {
+        "field": "experience[].end",
+        "source": "resume:sample_inputs\\resume_alexrivera.txt",
+        "method": "normalized_date",
+        "confidence": 0.7
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_87253121b299",
+    "full_name": null,
+    "emails": [],
+    "phones": [],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Phone screened a strong backend candidate referred by the Bengaluru team",
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "Python",
+        "confidence": 0.5,
+        "sources": [
+          "recruiter_notes:sample_inputs\\notes_unidentified_referral.txt"
+        ]
+      },
+      {
+        "name": "Go",
+        "confidence": 0.5,
+        "sources": [
+          "recruiter_notes:sample_inputs\\notes_unidentified_referral.txt"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.5,
+        "sources": [
+          "recruiter_notes:sample_inputs\\notes_unidentified_referral.txt"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "overall_confidence": 0.5,
+    "provenance": [
+      {
+        "field": "headline",
+        "source": "recruiter_notes:sample_inputs\\notes_unidentified_referral.txt",
+        "method": "freeform_notes",
+        "confidence": 0.5
+      },
+      {
+        "field": "skills[].Python",
+        "source": "recruiter_notes:sample_inputs\\notes_unidentified_referral.txt",
+        "method": "freeform_notes_scan",
+        "confidence": 0.5
+      },
+      {
+        "field": "skills[].Go",
+        "source": "recruiter_notes:sample_inputs\\notes_unidentified_referral.txt",
+        "method": "freeform_notes_scan",
+        "confidence": 0.5
+      },
+      {
+        "field": "skills[].Kubernetes",
+        "source": "recruiter_notes:sample_inputs\\notes_unidentified_referral.txt",
+        "method": "freeform_notes_scan",
+        "confidence": 0.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_a3caddb38202",
+    "full_name": "Jane Doe",
+    "emails": [
+      "jane.doe@example.com"
+    ],
+    "phones": [
+      "+14155550199"
+    ],
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US"
+    },
+    "links": {
+      "linkedin": null,
+      "github": "https://github.com/janedoe-dev",
+      "portfolio": "https://janedoe.dev",
+      "other": []
+    },
+    "headline": "Building scalable systems at Acme",
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "SQL",
+        "confidence": 0.95,
+        "sources": [
+          "ats_json:candidate_0",
+          "resume:sample_inputs\\resume_janedoe.pdf"
+        ]
+      },
+      {
+        "name": "AWS",
+        "confidence": 0.95,
+        "sources": [
+          "ats_json:candidate_0",
+          "resume:sample_inputs\\resume_janedoe.pdf"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.8,
+        "sources": [
+          "github:janedoe-dev",
+          "recruiter_notes:sample_inputs\\notes_janedoe.txt",
+          "resume:sample_inputs\\resume_janedoe.pdf"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "confidence": 0.7,
+        "sources": [
+          "github:janedoe-dev",
+          "resume:sample_inputs\\resume_janedoe.pdf"
+        ]
+      },
+      {
+        "name": "Go",
+        "confidence": 0.6,
+        "sources": [
+          "github:janedoe-dev"
+        ]
+      },
+      {
+        "name": "Docker",
+        "confidence": 0.55,
+        "sources": [
+          "resume:sample_inputs\\resume_janedoe.pdf"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 0.5,
+        "sources": [
+          "recruiter_notes:sample_inputs\\notes_janedoe.txt"
+        ]
+      },
+      {
+        "name": "React",
+        "confidence": 0.5,
+        "sources": [
+          "recruiter_notes:sample_inputs\\notes_janedoe.txt"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Acme Corp",
+        "title": "Senior Software Engineer",
+        "start": "2021-01",
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [
+      {
+        "institution": "UC Berkeley",
+        "degree": "B.S.",
+        "field": "Computer Science",
+        "end_year": 2015
+      }
+    ],
+    "overall_confidence": 0.764,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json:candidate_0",
+        "method": "merged_agreement",
+        "confidence": 0.85
+      },
+      {
+        "field": "full_name",
+        "source": "github:janedoe-dev",
+        "method": "merged_agreement",
+        "confidence": 0.8
+      },
+      {
+        "field": "full_name",
+        "source": "recruiter_csv:row_2",
+        "method": "merged_agreement",
+        "confidence": 0.99
+      },
+      {
+        "field": "full_name",
+        "source": "resume:sample_inputs\\resume_janedoe.pdf",
+        "method": "merged_agreement",
+        "confidence": 0.7
+      },
+      {
+        "field": "headline",
+        "source": "github:janedoe-dev",
+        "method": "conflict_resolved",
+        "confidence": 0.64
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_notes:sample_inputs\\notes_janedoe.txt",
+        "method": "conflict_discarded",
+        "confidence": 0.5
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv:row_2",
+        "method": "merged_union",
+        "confidence": 0.9
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv:row_2",
+        "method": "merged_union",
+        "confidence": 0.9
+      },
+      {
+        "field": "location.city",
+        "source": "ats_json:candidate_0",
+        "method": "merged_agreement",
+        "confidence": 0.95
+      },
+      {
+        "field": "location.city",
+        "source": "github:janedoe-dev",
+        "method": "merged_agreement",
+        "confidence": 0.8
+      },
+      {
+        "field": "location.region",
+        "source": "ats_json:candidate_0",
+        "method": "merged_agreement",
+        "confidence": 0.95
+      },
+      {
+        "field": "location.region",
+        "source": "github:janedoe-dev",
+        "method": "merged_agreement",
+        "confidence": 0.8
+      },
+      {
+        "field": "location.country",
+        "source": "ats_json:candidate_0",
+        "method": "normalized_iso3166",
+        "confidence": 0.85
+      },
+      {
+        "field": "links.github",
+        "source": "github:janedoe-dev",
+        "method": "direct",
+        "confidence": 0.8
+      },
+      {
+        "field": "links.portfolio",
+        "source": "github:janedoe-dev",
+        "method": "direct",
+        "confidence": 0.8
+      },
+      {
+        "field": "skills[].SQL",
+        "source": "ats_json:candidate_0",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills[].SQL",
+        "source": "resume:sample_inputs\\resume_janedoe.pdf",
+        "method": "regex_keyword_scan",
+        "confidence": 0.55
+      },
+      {
+        "field": "skills[].AWS",
+        "source": "ats_json:candidate_0",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills[].AWS",
+        "source": "resume:sample_inputs\\resume_janedoe.pdf",
+        "method": "regex_keyword_scan",
+        "confidence": 0.55
+      },
+      {
+        "field": "skills[].Go",
+        "source": "github:janedoe-dev",
+        "method": "inferred_from_repos",
+        "confidence": 0.6
+      },
+      {
+        "field": "skills[].Python",
+        "source": "github:janedoe-dev",
+        "method": "inferred_from_repos",
+        "confidence": 0.6
+      },
+      {
+        "field": "skills[].Python",
+        "source": "recruiter_notes:sample_inputs\\notes_janedoe.txt",
+        "method": "freeform_notes_scan",
+        "confidence": 0.5
+      },
+      {
+        "field": "skills[].Python",
+        "source": "resume:sample_inputs\\resume_janedoe.pdf",
+        "method": "regex_keyword_scan",
+        "confidence": 0.55
+      },
+      {
+        "field": "skills[].JavaScript",
+        "source": "github:janedoe-dev",
+        "method": "inferred_from_repos",
+        "confidence": 0.6
+      },
+      {
+        "field": "skills[].JavaScript",
+        "source": "resume:sample_inputs\\resume_janedoe.pdf",
+        "method": "regex_keyword_scan",
+        "confidence": 0.55
+      },
+      {
+        "field": "skills[].TypeScript",
+        "source": "recruiter_notes:sample_inputs\\notes_janedoe.txt",
+        "method": "freeform_notes_scan",
+        "confidence": 0.5
+      },
+      {
+        "field": "skills[].React",
+        "source": "recruiter_notes:sample_inputs\\notes_janedoe.txt",
+        "method": "freeform_notes_scan",
+        "confidence": 0.5
+      },
+      {
+        "field": "skills[].Docker",
+        "source": "resume:sample_inputs\\resume_janedoe.pdf",
+        "method": "regex_keyword_scan",
+        "confidence": 0.55
+      },
+      {
+        "field": "experience[].company",
+        "source": "ats_json:candidate_0",
+        "method": "merged_agreement",
+        "confidence": 0.85
+      },
+      {
+        "field": "experience[].company",
+        "source": "recruiter_csv:row_2",
+        "method": "merged_agreement",
+        "confidence": 0.99
+      },
+      {
+        "field": "experience[].company",
+        "source": "resume:sample_inputs\\resume_janedoe.pdf",
+        "method": "merged_agreement",
+        "confidence": 0.7
+      },
+      {
+        "field": "experience[].title",
+        "source": "ats_json:candidate_0",
+        "method": "merged_agreement",
+        "confidence": 0.85
+      },
+      {
+        "field": "experience[].title",
+        "source": "recruiter_csv:row_2",
+        "method": "merged_agreement",
+        "confidence": 0.99
+      },
+      {
+        "field": "experience[].title",
+        "source": "resume:sample_inputs\\resume_janedoe.pdf",
+        "method": "merged_agreement",
+        "confidence": 0.7
+      },
+      {
+        "field": "experience[].start",
+        "source": "resume:sample_inputs\\resume_janedoe.pdf",
+        "method": "normalized_date",
+        "confidence": 0.7
+      },
+      {
+        "field": "education[].degree",
+        "source": "ats_json:candidate_0",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "education[].field",
+        "source": "ats_json:candidate_0",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "education[].end_year",
+        "source": "ats_json:candidate_0",
+        "method": "parsed_year",
+        "confidence": 0.85
+      },
+      {
+        "field": "education[].institution",
+        "source": "ats_json:candidate_0",
+        "method": "direct",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_b54f6086ff03",
+    "full_name": "Amit Kumar",
+    "emails": [
+      "amit.kumar@example.com"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "location": {
+      "city": "Bengaluru",
+      "region": "Karnataka",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "Go",
+        "confidence": 0.85,
+        "sources": [
+          "ats_json:candidate_1"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.85,
+        "sources": [
+          "ats_json:candidate_1"
+        ]
+      },
+      {
+        "name": "Docker",
+        "confidence": 0.85,
+        "sources": [
+          "ats_json:candidate_1"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Initech",
+        "title": "Backend Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "end_year": 2018
+      }
+    ],
+    "overall_confidence": 0.85,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json:candidate_1",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "emails",
+        "source": "ats_json:candidate_1",
+        "method": "normalized_email",
+        "confidence": 0.85
+      },
+      {
+        "field": "phones",
+        "source": "ats_json:candidate_1",
+        "method": "normalized_e164",
+        "confidence": 0.85
+      },
+      {
+        "field": "location.city",
+        "source": "ats_json:candidate_1",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "location.region",
+        "source": "ats_json:candidate_1",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "location.country",
+        "source": "ats_json:candidate_1",
+        "method": "normalized_iso3166",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills[].Go",
+        "source": "ats_json:candidate_1",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills[].Kubernetes",
+        "source": "ats_json:candidate_1",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "skills[].Docker",
+        "source": "ats_json:candidate_1",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "experience[].company",
+        "source": "ats_json:candidate_1",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "experience[].title",
+        "source": "ats_json:candidate_1",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "education[].degree",
+        "source": "ats_json:candidate_1",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "education[].field",
+        "source": "ats_json:candidate_1",
+        "method": "direct",
+        "confidence": 0.85
+      },
+      {
+        "field": "education[].end_year",
+        "source": "ats_json:candidate_1",
+        "method": "parsed_year",
+        "confidence": 0.85
+      },
+      {
+        "field": "education[].institution",
+        "source": "ats_json:candidate_1",
+        "method": "direct",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_fda41864fbb2",
+    "full_name": "John Smith",
+    "emails": [
+      "john.smith@example.com"
+    ],
+    "phones": [
+      "+16505551234"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "Python",
+        "confidence": 0.55,
+        "sources": [
+          "resume:sample_inputs\\resume_johnsmith.docx"
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "confidence": 0.55,
+        "sources": [
+          "resume:sample_inputs\\resume_johnsmith.docx"
+        ]
+      },
+      {
+        "name": "SQL",
+        "confidence": 0.55,
+        "sources": [
+          "resume:sample_inputs\\resume_johnsmith.docx"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Globex",
+        "title": "Data Scientist",
+        "start": "2019-03",
+        "end": "2022-12",
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.66,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv:row_3",
+        "method": "merged_agreement",
+        "confidence": 0.99
+      },
+      {
+        "field": "full_name",
+        "source": "resume:sample_inputs\\resume_johnsmith.docx",
+        "method": "merged_agreement",
+        "confidence": 0.7
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv:row_3",
+        "method": "merged_union",
+        "confidence": 0.9
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv:row_3",
+        "method": "merged_union",
+        "confidence": 0.9
+      },
+      {
+        "field": "skills[].Python",
+        "source": "resume:sample_inputs\\resume_johnsmith.docx",
+        "method": "regex_keyword_scan",
+        "confidence": 0.55
+      },
+      {
+        "field": "skills[].Machine Learning",
+        "source": "resume:sample_inputs\\resume_johnsmith.docx",
+        "method": "regex_keyword_scan",
+        "confidence": 0.55
+      },
+      {
+        "field": "skills[].SQL",
+        "source": "resume:sample_inputs\\resume_johnsmith.docx",
+        "method": "regex_keyword_scan",
+        "confidence": 0.55
+      },
+      {
+        "field": "experience[].company",
+        "source": "recruiter_csv:row_3",
+        "method": "merged_agreement",
+        "confidence": 0.99
+      },
+      {
+        "field": "experience[].company",
+        "source": "resume:sample_inputs\\resume_johnsmith.docx",
+        "method": "merged_agreement",
+        "confidence": 0.7
+      },
+      {
+        "field": "experience[].title",
+        "source": "recruiter_csv:row_3",
+        "method": "merged_agreement",
+        "confidence": 0.99
+      },
+      {
+        "field": "experience[].title",
+        "source": "resume:sample_inputs\\resume_johnsmith.docx",
+        "method": "merged_agreement",
+        "confidence": 0.7
+      },
+      {
+        "field": "experience[].start",
+        "source": "resume:sample_inputs\\resume_johnsmith.docx",
+        "method": "normalized_date",
+        "confidence": 0.7
+      },
+      {
+        "field": "experience[].end",
+        "source": "resume:sample_inputs\\resume_johnsmith.docx",
+        "method": "normalized_date",
+        "confidence": 0.7
+      }
+    ]
+  }
+]
