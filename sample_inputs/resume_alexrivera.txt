@@ -1,0 +1,9 @@
+Alex Rivera
+alex.rivera@example.com | +1 512 555 0177 | Austin, TX
+
+EXPERIENCE
+Backend Engineer — Initrode (Feb 2020 - Jun 2023)
+Owned the payments service and on-call rotation.
+
+SKILLS
+Go, Kubernetes, Docker, Postgres

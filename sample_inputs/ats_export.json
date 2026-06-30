@@ -1,0 +1,26 @@
+{
+  "candidates": [
+    {
+      "candidate_name": "Jane Doe",
+      "contact": { "email": "jane.doe@example.com", "mobile": "4155550199" },
+      "employer": "Acme Corp",
+      "role": "Senior Software Engineer",
+      "address": { "town": "San Francisco", "state": "CA", "nation": "United States" },
+      "skill_tags": ["SQL", "AWS"],
+      "edu": [
+        { "school": "UC Berkeley", "level": "B.S.", "major": "Computer Science", "grad_year": 2015 }
+      ]
+    },
+    {
+      "candidate_name": "Amit Kumar",
+      "contact": { "email": "amit.kumar@example.com", "mobile": "+91 98765 43210" },
+      "employer": "Initech",
+      "role": "Backend Engineer",
+      "address": { "town": "Bengaluru", "state": "Karnataka", "nation": "India" },
+      "skill_tags": ["Go", "Kubernetes", "Docker"],
+      "edu": [
+        { "school": "IIT Bombay", "level": "B.Tech", "major": "Computer Science", "grad_year": 2018 }
+      ]
+    }
+  ]
+}

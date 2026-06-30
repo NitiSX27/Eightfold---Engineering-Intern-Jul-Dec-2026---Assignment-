@@ -1,0 +1,15 @@
+{
+  "profile": {
+    "login": "janedoe-dev",
+    "name": "Jane Doe",
+    "bio": "Building scalable systems at Acme",
+    "location": "San Francisco, CA",
+    "blog": "https://janedoe.dev"
+  },
+  "repos": [
+    { "name": "service-mesh-tools", "language": "Go" },
+    { "name": "data-pipelines", "language": "Python" },
+    { "name": "infra-scripts", "language": "Python" },
+    { "name": "react-dashboard", "language": "JavaScript" }
+  ]
+}
